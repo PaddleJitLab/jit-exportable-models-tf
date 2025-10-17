@@ -15,11 +15,19 @@ repos=(
   "airnet50"
   "centernet"
   "dabnet"
+  "diracnet"
+  "efficientnet"
+  "lffd"
+  "wrnet"
+  "cgnet"
+  "fastscnn"
   "yolact-tf2"
   "detr-tensorflow"
-  "beit2"
   "yolov4"
-  "diracnet"
+  "yolov5"
+  "beit2"
+  "cmt"
+  "background-mattingv2"
 )
 for repo in "${repos[@]}"; do
     # Init torch environment
