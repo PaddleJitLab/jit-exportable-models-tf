@@ -10,9 +10,16 @@ source init_env.sh
 repos=(
   "resnet"
   "fcn8sd"
+  "ghostnet"
+  "darknet53"
+  "airnet50"
   "centernet"
+  "dabnet"
   "yolact-tf2"
   "detr-tensorflow"
+  "beit2"
+  "yolov4"
+  "diracnet"
 )
 for repo in "${repos[@]}"; do
     # Init torch environment
